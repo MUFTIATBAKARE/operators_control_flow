@@ -67,11 +67,11 @@ if (studentChoice === 'science'){
 //     console.log("The mumber " + pwr + " is the power of 2 nearest to " + num);
 //     index++;
 // }
-// let num = prompt ("Please enter a number:");
-// let pwr = 2;
-// let index = 0;
-// while (num >= 0 && pwr < num) {
-//     if (pwr = 2**index);
-//     console.log("The mumber " + pwr + " is the power of 2 nearest to " + num);
-//     index++;
-// }
+let num = prompt ("Please enter a number:");
+let pwr = 2;
+let index = 0;
+while (num >= 0 && pwr < num) {
+    pwr = 2**index;
+    index++;
+ console.log("The mumber " + pwr + " is the power of 2 nearest to " + num);
+}
