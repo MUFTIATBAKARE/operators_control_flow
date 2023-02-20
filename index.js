@@ -1,5 +1,5 @@
 //QUESTION 3}
-/* options forb studentChoice are art, science, socialsciednce
+/* options for studentChoice are art, science, socialsciednce
  if studentChoice is art, print 'generalSubjects and artSubjects"
  if studentChoice is science, print 'generalSubjects and scienceSubjects"
  if studentChoice is socialscience, print 'generalSubjects and socialScienceSubjects"
@@ -25,48 +25,12 @@ if (studentChoice === 'science'){
 }
 
 //QUESTION 5
-/* positive number is num
+/**
+ * - user enters a positive number
+ * - positive number is 0 and above
+ * - print power of 2 closest to the number entered by user
+ * 
 */
-// let num = prompt ("Please enter a number:"); -----error
-// let pwr = 0;
-// let index = 1;
-// do {
-//     pwr = 2**index;
-//     index++;
-// } while (pwr > num);
-// console.log("The mumber " + pwr + " is the power of 2 nearest to " + num);
-
-// let num = 40; ----- error
-// let pwr = 2;
-// let index = 1;
-// do {
-//     pwr = 2**index;
-    
-// } while (pwr > num);
-// console.log("The mumber " + pwr + " is the power of 2 nearest to " + num);
-// index++;
-
-// let num = 40; -----error
-// let pwr = 2;
-// let index = 1;
-// do {
-//     if (pwr **= index);
-//     index++;
-    
-// } while (pwr < num);
-// console.log("The mumber " + pwr + " is the power of 2 nearest to " + num);
-
-
-//using while loop
-// let num = 10;
-// let pwr = 2;
-// let index = 1;
-// while (pwr < num) {
-//     if (pwr **= index);
-   
-//     console.log("The mumber " + pwr + " is the power of 2 nearest to " + num);
-//     index++;
-// }
 let num = prompt ("Please enter a number:");
 let pwr = 2;
 let index = 0;
