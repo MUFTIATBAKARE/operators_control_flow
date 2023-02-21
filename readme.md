@@ -45,9 +45,111 @@ Strict not equal to "!=="
    Zero fill right shift ">>>"
    AND "&"
 
-### Question 4
+### Question 2
 
 Examples
+Arithmetic operators:
+
+let x = 80; let y = 30;
+const a = 56; const b = 4;
+
+addition - "+"
+
+1.  console.log(a + b)
+2.  console.log(x + y)
+
+subtraction - "-"
+
+1.  console.log(a - b)
+2.  console.log(x - y)
+
+multiplication - "\*"
+
+1.  console.log(a \* b)
+2.  console.log(x \* y)
+
+division - "/"
+
+1.  console.log(a / b)
+2.  console.log(x / y)
+
+modulo - "%"
+
+1.  console.log(b % a)
+2.  console.log(y % x)
+
+exponential - "\*\*"
+
+1.  console.log(a \*\* b)
+2.  console.log(x \*\* y)
+
+increment - "++"
+
+1.  for(i = 0; i<=30; i++)
+    {console.log('stutern')}
+2.  console.log(y++)
+
+decrement - "--"
+1)for(i = 0; i<=30; i--)
+{console.log('stutern')} 2) console.log(y--)
+
+Assignment operators:
+
+Assignment operator "="
+const car = "volvo";
+let level = 500;
+
+Addition assignment operator "+="
+
+1.  for(i = 0; i<=30; i++)
+    {sum+=i}; console.log(sum);
+2.  let count = 0
+    while(count>=10){
+    sum+=count
+    count++
+    }
+    console.log(sum);
+
+Subtraction assignment operator "-="
+
+1. for(i = 0; i<=30; i++)
+   {difference-=i}; console.log(difference);
+2. let count = 0
+   while(count>=10){
+   difference-=count
+   count++
+   }
+   console.log(difference);
+
+Multiplication assignment operator "\*="
+
+1. for(i = 0; i<=30; i++)
+   {multiplication\*=i}; console.log(multiplication);
+2. let count = 0
+   while(count>=10){
+   multiplication\*=count
+   count++
+   }
+   console.log(multiplication);
+
+Division assignment operator - "/="
+
+1. for(i = 0; i<=30; i++)
+   {division/=i}; console.log(division);
+2. let count = 0
+   while(count>=10){
+   division/=count
+   count++
+   }
+   console.log(division);
+   Modulus assignment operator - "%="
+3. for(i = 0; i<=30; i++)
+   {modulo%=i}; console.log(modulo); 2) let count = 0
+   while(count>=10){
+   modulo%=count
+   count++
+   }
+   console.log(modulo);
 
 ### Question 4
 
