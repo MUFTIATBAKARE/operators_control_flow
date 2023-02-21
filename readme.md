@@ -134,22 +134,135 @@ Multiplication assignment operator "\*="
 
 Division assignment operator - "/="
 
-1. for(i = 0; i<=30; i++)
-   {division/=i}; console.log(division);
-2. let count = 0
-   while(count>=10){
-   division/=count
-   count++
-   }
-   console.log(division);
-   Modulus assignment operator - "%="
-3. for(i = 0; i<=30; i++)
-   {modulo%=i}; console.log(modulo); 2) let count = 0
-   while(count>=10){
-   modulo%=count
-   count++
-   }
-   console.log(modulo);
+1.  for(i = 0; i<=30; i++)
+    {division/=i}; console.log(division);
+2.  let count = 0
+    while(count>=10){
+    division/=count
+    count++
+    }
+    console.log(division);
+    Modulus assignment operator - "%="
+3.  for(i = 0; i<=30; i++)
+    {modulo%=i}; console.log(modulo); 2) let count = 0
+    while(count>=10){
+    modulo%=count
+    count++
+    }
+    console.log(modulo);
+    Comparison operators
+    a) Relational operators:
+
+    Less than "<"
+
+    1. let candy = 50;
+       let trickOrTreat = candy < 10 ? trick : treats
+    2. let averageScore = 80;
+       let studentScore = 50;
+       if(studentScore < averageScore){
+       console.log ("Kindly defer to next cohort")};
+       else{console.log("you can proceed to theintermediate phase") }
+
+    Greater than ">"
+
+    1. let candy = 50;
+       let trickOrTreat = candy > 10 ? treats : trick
+    2. let averageScore = 80;
+       let studentScore = 50;
+       if(studentScore > averageScore){
+       console.log ("you can proceed to theintermediate phase")};
+       else{console.log("Kindly defer to next cohort") }
+
+    Greater than and equal to ">="
+
+    1. let candy = 50;
+       let trickOrTreat = candy > 10 ? treats : trick
+    2. let averageScore = 80;
+       let studentScore = 50;
+       if(studentScore > averageScore){
+       console.log ("you can proceed to theintermediate phase")};
+       else{console.log("Kindly defer to next cohort") }
+
+    Less than and equal to "<="
+
+        1) let candy = 50;
+
+    let trickOrTreat = candy <= 10 ? trick : treats 2) let averageScore = 80;
+    let studentScore = 50;
+    if(studentScore <= averageScore){
+    console.log ("Kindly defer to next cohort")};
+    else{console.log("you can proceed to theintermediate phase") }
+
+    b) Equality operators
+    Loose equal to "=="
+    let currentAge = 25
+    let officialAge = "25"
+    if (currentAge == officialAge){
+    console.log(true)
+    }
+    else{
+    console.log(false)
+    }
+    Strict equal to "==="
+    let currentAge = 25
+    let officialAge = "25"
+    if (currentAge === officialAge){
+    console.log(true)
+    }
+    else{
+    console.log(false)
+    }
+    Loose not equal to "!="
+    let currentAge = 25
+    let officialAge = "25"
+    if (currentAge != officialAge){
+    console.log(false)
+    }
+    else{
+    console.log(true)
+    }
+    Strict not equal to "!=="
+    let currentAge = 25
+    let officialAge = "25"
+    if (currentAge !== officialAge){
+    console.log(false)
+    }
+    else{
+    console.log(true)
+    }
+    Logical operators:
+
+1)  AND "&&"
+    let scanResult = "viable";
+    let sex = "xx";
+    if(scanResult === "viable" && sex === "xx"){
+    console.log("your baby is a BOY!")
+    }
+    else{
+    console.log("your baby is a girl")
+    }
+
+2)  OR "||"
+
+let scanResult = "viable";
+let sex = "xx";
+if(scanResult === "viable" && sex === "xx"){
+console.log("your baby is a BOY!")
+}
+else if(scanResult === "viable" || sex === "xx"){
+console.log("you are advised to come for another scan procedure in two weeks time")
+}
+else{
+console.log("your baby is a girl")
+}
+NOT "!"
+let scanResult = "viable";
+if(scanResult !== "viable"){
+console.log("you need to see the doctor, ma'am!")
+}
+else{
+console.log("your baby is doing fine, ma'am")
+}
 
 ### Question 4
 
