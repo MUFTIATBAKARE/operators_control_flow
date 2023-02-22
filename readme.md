@@ -306,18 +306,18 @@ AND "&&"
     babyGender = "xy";
 
     if(baby === "viable" && babyGender === "xx"){
-    console.log(`Your baby is ${foetalStatus} and it's a ${sexReveal2}`)
+    console.log("Your baby is " + foetalStatus + " and it's a " + sexReveal2)
     }
 
     else if(baby === "viable" && babyGender === "xy"){
-    console.log(`Your baby is ${foetalStatus} and it's a ${sexReveal}`)
+    console.log("Your baby is " + foetalStatus + " and it's a " + sexReveal)
     }
 
     else
-    console.log(`${foetalStatus2}`);
+    console.log(foetalStatus2);
 
 2.  let cashWithdrawal;
-    let currencyType
+    let currencyType;
 
     let newNote = "unavailable";
     let oldNote = "available";
@@ -347,7 +347,7 @@ console.log(others)
 }
 
 2. let cashWithdrawal;
-   let currencyType
+   let currencyType;
 
    let newNote = "unavailable";
    let oldNote = "available";
