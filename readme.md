@@ -233,29 +233,44 @@ Division assignment operator - "/="
     Logical operators:
 
 1)  AND "&&"
-    let scanResult = "viable";
-    let sex = "xx";
-    if(scanResult === "viable" && sex === "xx"){
-    console.log("your baby is a BOY!")
-    }
-    else{
-    console.log("your baby is a girl")
-    }
+    let baby;
+    let babyGender;
 
-2)  OR "||"
+let foetalStatus = "alive";
+let foetalStatus2 = "Please repeat scan in two weeks time";
+let sexReveal = "BOY!";
+let sexReveal2 = "GIRL!";
 
-let scanResult = "viable";
-let sex = "xx";
-if(scanResult === "viable" && sex === "xx"){
-console.log("your baby is a BOY!")
+baby = "viable";
+babyGender = "xy";
+
+if(baby === "viable" && babyGender === "xx"){
+console.log(`Your baby is ${foetalStatus} and it's a ${sexReveal2}`)
 }
-else if(scanResult === "viable" || sex === "xx"){
-console.log("you are advised to come for another scan procedure in two weeks time")
+else if(baby === "viable" && babyGender === "xy"){
+console.log(`Your baby is ${foetalStatus} and it's a ${sexReveal}`)
 }
+else
+console.log(`${foetalStatus2}`)
+
+2.  OR "||"
+
+let gender;
+let sex = "confirmed!"
+let others = "You can only be either a girl or a boy";
+
+gender = "boy";
+
+if(gender === "boy" || gender === "girl"){
+console.log("your gender is " + sex)
+}
+
 else{
-console.log("your baby is a girl")
+console.log(others)
 }
+
 NOT "!"
+
 let scanResult = "viable";
 if(scanResult !== "viable"){
 console.log("you need to see the doctor, ma'am!")
