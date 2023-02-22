@@ -58,46 +58,46 @@ const a = 56; const b = 4;
 
 addition - "+"
 
-1.  console.log(a + b)
-2.  console.log(x + y)
+1.  console.log(a + b);
+2.  console.log(x + y);
 
 subtraction - "-"
 
-1.  console.log(a - b)
-2.  console.log(x - y)
+1.  console.log(a - b);
+2.  console.log(x - y);
 
 multiplication - "\*"
 
-1.  console.log(a \* b)
-2.  console.log(x \* y)
+1.  console.log(a \* b);
+2.  console.log(x \* y);
 
 division - "/"
 
-1.  console.log(a / b)
-2.  console.log(x / y)
+1.  console.log(a / b);
+2.  console.log(x / y);
 
 modulo - "%"
 
-1.  console.log(b % a)
-2.  console.log(y % x)
+1.  console.log(b % a);
+2.  console.log(y % x);
 
 exponential - "\*\*"
 
-1.  console.log(a \*\* b)
-2.  console.log(x \*\* y)
+1.  console.log(a \*\* b);
+2.  console.log(x \*\* y);
 
 increment - "++"
 
 1.  for(i = 0; i<=30; i++)
     {console.log('stutern')}
-2.  console.log(y++)
+2.  console.log(y++);
 
 decrement - "--"
 
 1. for(i = 0; i<=30; i--)
    {console.log('stutern')}
 
-2. console.log(y--)
+2. console.log(y--);
 
 Assignment operators:
 
@@ -109,56 +109,56 @@ let level = 500;
 Addition assignment operator "+="
 
 1.  for(i = 0; i<=30; i++)
-    {sum+=i}; console.log(sum);
-2.  let count = 0
+    {sum+=i;} console.log(sum);
+2.  let count = 0;
     while(count>=10){
-    sum+=count
-    count++
+    sum+=count;
+    count++;
     }
     console.log(sum);
 
 Subtraction assignment operator "-="
 
-1. for(i = 0; i<=30; i++)
-   {difference-=i}; console.log(difference);
-2. let count = 0
+1. for(i = 0; i<=30; i++);
+   {difference-=i;} console.log(difference);
+2. let count = 0;
    while(count>=10){
-   difference-=count
-   count++
+   difference-=count;
+   count++;
    }
    console.log(difference);
 
 Multiplication assignment operator "\*="
 
-1. for(i = 0; i<=30; i++)
-   {multiplication\*=i}; console.log(multiplication);
+1. for(i = 0; i<=30; i++);
+   {multiplication\*=i;} console.log(multiplication);
 2. let count = 0
    while(count>=10){
-   multiplication\*=count
-   count++
+   multiplication\*=count;
+   count++;
    }
    console.log(multiplication);
 
 Division assignment operator - "/="
 
 1.  for(i = 0; i<=30; i++)
-    {division/=i}; console.log(division);
-2.  let count = 0
+    {division/=i;} console.log(division);
+2.  let count = 0;
     while(count>=10){
-    division/=count
-    count++
+    division/=count;
+    count++;
     }
     console.log(division);
 
 Modulus assignment operator - "%="
 
 1.  for(i = 0; i<=30; i++)
-    {modulo%=i}; console.log(modulo);
+    {modulo%=i;} console.log(modulo);
 
-2.  let count = 0
+2.  let count = 0;
     while(count>=10){
-    modulo%=count
-    count++
+    modulo%=count;
+    count++;
     }
     console.log(modulo);
 
@@ -169,42 +169,49 @@ Less than "<"
 
 1.  let candy = 50;
     let trickOrTreat = candy < 10 ? trick : treats
+    console.log(trickOrTreat);
+
 2.  let averageScore = 80;
     let studentScore = 50;
     if(studentScore < averageScore){
     console.log ("Kindly defer to next cohort")};
-    else{console.log("you can proceed to theintermediate phase") }
+    else{console.log("you can proceed to theintermediate phase") };
 
 Greater than ">"
 
 1.  let candy = 50;
-    let trickOrTreat = candy > 10 ? treats : trick
+    let trickOrTreat = candy > 10 ? treats : trick;
+    console.log(trickOrTreat);
+
 2.  let averageScore = 80;
     let studentScore = 50;
     if(studentScore > averageScore){
     console.log ("you can proceed to theintermediate phase")};
-    else{console.log("Kindly defer to next cohort") }
+    else{console.log("Kindly defer to next cohort") };
 
 Greater than and equal to ">="
 
 1.  let candy = 50;
-    let trickOrTreat = candy > 10 ? treats : trick;
+    let trickOrTreat = candy >= 10 ? treats : trick;
+    console.log(trickOrTreat);
 
 2.  let averageScore = 80;
     let studentScore = 50;
-    if(studentScore > averageScore){
+    if(studentScore >= averageScore){
     console.log ("you can proceed to theintermediate phase")};
-    else{console.log("Kindly defer to next cohort") }
+    else{console.log("Kindly defer to next cohort") };
 
 Less than and equal to "<="
 
-1.  let candy = 50;
-    let trickOrTreat = candy <= 10 ? trick : treats
+1.  let candy = 50;;
+    let trickOrTreat = candy <= 10 ? trick : treats;
+    console.log(trickOrTreat);
+
 2.  let averageScore = 80;
     let studentScore = 50;
     if(studentScore <= averageScore){
     console.log ("Kindly defer to next cohort")};
-    else{console.log("you can proceed to theintermediate phase") }
+    else{console.log("you can proceed to theintermediate phase") };
 
 b) Equality operators
 
@@ -267,22 +274,22 @@ Loose not equal to "!="
 
 Strict not equal to "!=="
 
-    1. let currentAge = 25
-    let officialAge = "25"
-    if (currentAge !== officialAge){
-    console.log(false)
-    }
-    else{
-    console.log(true)
-    }
+1. let currentAge = 25
+   let officialAge = "25"
+   if (currentAge !== officialAge){
+   console.log(false)
+   }
+   else{
+   console.log(true)
+   }
 
-    2. let countryIndependence = "1960"
-    if (countryIndependence !== 1960){
-    console.log(false)
-    }
-    else{
-    console.log(true)
-    }
+2. let countryIndependence = "1960"
+   if (countryIndependence !== 1960){
+   console.log(false)
+   }
+   else{
+   console.log(true)
+   }
 
 Logical operators:
 
@@ -355,29 +362,13 @@ console.log(others)
 
 NOT "!"
 
-1.  let scanResult = "viable";
+1.  let goodGrades = true;
+    let failed = !goodGrades;
+    console.log(failed);
 
-if(scanResult !== "viable"){
-console.log("you need to see the doctor, ma'am!")
-}
-
-else{
-console.log("your baby is doing fine, ma'am")
-}
-
-2. let cashWithdrawal;
-   let currencyType
-
-   let newNote = "unavailable";
-   let oldNote = "available";
-
-   cashWithdrawal = 500;
-   currencyType = "newNote";
-   if(currencyType !== "newNote"){
-   console.log(oldNote);
-   }
-   else
-   console.log(newNote);
+2.  let EligibleForScholarship = false;
+    let applicationDenied = !EligibleForScholarship;
+    console.log(applicationDenied);
 
 ### Question 4
 
