@@ -19,17 +19,18 @@
    Modulus assignment operator - "%="
 
 3. Comparison operators
+
    a) Relational operators are:
    Less than "<"
    Greater than ">"
    Greater than and equal to ">="
    Less than and equal to "<="
 
-b) Equality operators
-Loose equal to "=="
-Strict equal to "==="
-Loose not equal to "!="
-Strict not equal to "!=="
+   b) Equality operators are:
+   Loose equal to "=="
+   Strict equal to "==="
+   Loose not equal to "!="
+   Strict not equal to "!=="
 
 4. Logical operators
    AND "&&"
@@ -48,9 +49,11 @@ Strict not equal to "!=="
 ### Question 2
 
 Examples
+
 Arithmetic operators:
 
 let x = 80; let y = 30;
+
 const a = 56; const b = 4;
 
 addition - "+"
@@ -90,12 +93,16 @@ increment - "++"
 2.  console.log(y++)
 
 decrement - "--"
-1)for(i = 0; i<=30; i--)
-{console.log('stutern')} 2) console.log(y--)
+
+1. for(i = 0; i<=30; i--)
+   {console.log('stutern')}
+
+2. console.log(y--)
 
 Assignment operators:
 
 Assignment operator "="
+
 const car = "volvo";
 let level = 500;
 
@@ -142,60 +149,68 @@ Division assignment operator - "/="
     count++
     }
     console.log(division);
-    Modulus assignment operator - "%="
-3.  for(i = 0; i<=30; i++)
-    {modulo%=i}; console.log(modulo); 2) let count = 0
+
+Modulus assignment operator - "%="
+
+1.  for(i = 0; i<=30; i++)
+    {modulo%=i}; console.log(modulo);
+
+2.  let count = 0
     while(count>=10){
     modulo%=count
     count++
     }
     console.log(modulo);
-    Comparison operators
-    a) Relational operators:
 
-    Less than "<"
+Comparison operators
+a. Relational operators:
 
-    1. let candy = 50;
-       let trickOrTreat = candy < 10 ? trick : treats
-    2. let averageScore = 80;
-       let studentScore = 50;
-       if(studentScore < averageScore){
-       console.log ("Kindly defer to next cohort")};
-       else{console.log("you can proceed to theintermediate phase") }
+Less than "<"
 
-    Greater than ">"
+1.  let candy = 50;
+    let trickOrTreat = candy < 10 ? trick : treats
+2.  let averageScore = 80;
+    let studentScore = 50;
+    if(studentScore < averageScore){
+    console.log ("Kindly defer to next cohort")};
+    else{console.log("you can proceed to theintermediate phase") }
 
-    1. let candy = 50;
-       let trickOrTreat = candy > 10 ? treats : trick
-    2. let averageScore = 80;
-       let studentScore = 50;
-       if(studentScore > averageScore){
-       console.log ("you can proceed to theintermediate phase")};
-       else{console.log("Kindly defer to next cohort") }
+Greater than ">"
 
-    Greater than and equal to ">="
+1.  let candy = 50;
+    let trickOrTreat = candy > 10 ? treats : trick
+2.  let averageScore = 80;
+    let studentScore = 50;
+    if(studentScore > averageScore){
+    console.log ("you can proceed to theintermediate phase")};
+    else{console.log("Kindly defer to next cohort") }
 
-    1. let candy = 50;
-       let trickOrTreat = candy > 10 ? treats : trick
-    2. let averageScore = 80;
-       let studentScore = 50;
-       if(studentScore > averageScore){
-       console.log ("you can proceed to theintermediate phase")};
-       else{console.log("Kindly defer to next cohort") }
+Greater than and equal to ">="
 
-    Less than and equal to "<="
+1.  let candy = 50;
+    let trickOrTreat = candy > 10 ? treats : trick;
 
-        1) let candy = 50;
+2.  let averageScore = 80;
+    let studentScore = 50;
+    if(studentScore > averageScore){
+    console.log ("you can proceed to theintermediate phase")};
+    else{console.log("Kindly defer to next cohort") }
 
-    let trickOrTreat = candy <= 10 ? trick : treats 2) let averageScore = 80;
+Less than and equal to "<="
+
+1.  let candy = 50;
+    let trickOrTreat = candy <= 10 ? trick : treats
+2.  let averageScore = 80;
     let studentScore = 50;
     if(studentScore <= averageScore){
     console.log ("Kindly defer to next cohort")};
     else{console.log("you can proceed to theintermediate phase") }
 
-    b) Equality operators
-    Loose equal to "=="
-    let currentAge = 25
+b) Equality operators
+
+Loose equal to "=="
+
+1.  let currentAge = 25
     let officialAge = "25"
     if (currentAge == officialAge){
     console.log(true)
@@ -203,8 +218,18 @@ Division assignment operator - "/="
     else{
     console.log(false)
     }
-    Strict equal to "==="
-    let currentAge = 25
+
+2.  let countryIndependence = "1960"
+    if (countryIndependence == 1960){
+    console.log(true)
+    }
+    else{
+    console.log(false)
+    }
+
+Strict equal to "==="
+
+1.  let currentAge = 25
     let officialAge = "25"
     if (currentAge === officialAge){
     console.log(true)
@@ -212,8 +237,18 @@ Division assignment operator - "/="
     else{
     console.log(false)
     }
-    Loose not equal to "!="
-    let currentAge = 25
+
+2.  let countryIndependence = "1960"
+    if (countryIndependence === 1960){
+    console.log(true)
+    }
+    else{
+    console.log(false)
+    }
+
+Loose not equal to "!="
+
+1.  let currentAge = 25
     let officialAge = "25"
     if (currentAge != officialAge){
     console.log(false)
@@ -221,8 +256,18 @@ Division assignment operator - "/="
     else{
     console.log(true)
     }
-    Strict not equal to "!=="
-    let currentAge = 25
+
+2.  let countryIndependence = "1960"
+    if (countryIndependence != 1960){
+    console.log(false)
+    }
+    else{
+    console.log(true)
+    }
+
+Strict not equal to "!=="
+
+    1. let currentAge = 25
     let officialAge = "25"
     if (currentAge !== officialAge){
     console.log(false)
@@ -230,34 +275,59 @@ Division assignment operator - "/="
     else{
     console.log(true)
     }
-    Logical operators:
 
-1)  AND "&&"
-    let baby;
+    2. let countryIndependence = "1960"
+    if (countryIndependence !== 1960){
+    console.log(false)
+    }
+    else{
+    console.log(true)
+    }
+
+Logical operators:
+
+AND "&&"
+
+1.  let baby;
     let babyGender;
+    let foetalStatus = "alive";
+    let foetalStatus2 = "Please repeat scan in two weeks time";
+    let sexReveal = "BOY!";
+    let sexReveal2 = "GIRL!";
 
-let foetalStatus = "alive";
-let foetalStatus2 = "Please repeat scan in two weeks time";
-let sexReveal = "BOY!";
-let sexReveal2 = "GIRL!";
+    baby = "viable";
+    babyGender = "xy";
 
-baby = "viable";
-babyGender = "xy";
+    if(baby === "viable" && babyGender === "xx"){
+    console.log(`Your baby is ${foetalStatus} and it's a ${sexReveal2}`)
+    }
 
-if(baby === "viable" && babyGender === "xx"){
-console.log(`Your baby is ${foetalStatus} and it's a ${sexReveal2}`)
-}
-else if(baby === "viable" && babyGender === "xy"){
-console.log(`Your baby is ${foetalStatus} and it's a ${sexReveal}`)
-}
-else
-console.log(`${foetalStatus2}`)
+    else if(baby === "viable" && babyGender === "xy"){
+    console.log(`Your baby is ${foetalStatus} and it's a ${sexReveal}`)
+    }
 
-2.  OR "||"
+    else
+    console.log(`${foetalStatus2}`);
 
-let gender;
-let sex = "confirmed!"
-let others = "You can only be either a girl or a boy";
+2.  let cashWithdrawal;
+    let currencyType
+
+    let newNote = "unavailable";
+    let oldNote = "available";
+
+    cashWithdrawal = 500;
+    currencyType = "newNote";
+    if(cashWithdrawal >= 500 && currencyType === "newNote"){
+    console.log(newNote);
+    }
+    else
+    console.log(oldNote);
+
+OR "||"
+
+1.  let gender;
+    let sex = "confirmed!"
+    let others = "You can only be either a girl or a boy";
 
 gender = "boy";
 
@@ -269,15 +339,45 @@ else{
 console.log(others)
 }
 
+2. let cashWithdrawal;
+   let currencyType
+
+   let newNote = "unavailable";
+   let oldNote = "available";
+
+   cashWithdrawal = 1000;
+   currencyType = "newNote";
+   if(cashWithdrawal >= 500 || currencyType === "newNote"){
+   console.log(newNote);
+   }
+   else
+   console.log(oldNote);
+
 NOT "!"
 
-let scanResult = "viable";
+1.  let scanResult = "viable";
+
 if(scanResult !== "viable"){
 console.log("you need to see the doctor, ma'am!")
 }
+
 else{
 console.log("your baby is doing fine, ma'am")
 }
+
+2. let cashWithdrawal;
+   let currencyType
+
+   let newNote = "unavailable";
+   let oldNote = "available";
+
+   cashWithdrawal = 500;
+   currencyType = "newNote";
+   if(currencyType !== "newNote"){
+   console.log(oldNote);
+   }
+   else
+   console.log(newNote);
 
 ### Question 4
 
