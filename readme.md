@@ -37,14 +37,14 @@
    OR "||"
    NOT "!"
 
-5. Bitwise operators
+5. Bitwise operators are:
+   AND "&"
    XOR "^"
    OR "|"
    Not "~"
    Zero fill left shift "<<"
-   Signed right shift ">>"
+   Sign-propagating right shift ">>"
    Zero fill right shift ">>>"
-   AND "&"
 
 ### Question 2
 
@@ -369,6 +369,109 @@ NOT "!"
 2.  let EligibleForScholarship = false;
     let applicationDenied = !EligibleForScholarship;
     console.log(applicationDenied);
+
+Bitwise operators
+
+AND "&"
+
+1.  const x = 8;
+    const y = 15;
+
+    z = x & y;
+    console.log(z);
+
+2.  let x = 10;
+    let y = 24;
+
+    z = x & y;
+    console.log(z);
+
+XOR "^"
+
+1.  const x = 8;
+    const y = 15;
+
+    z = x ^ y;
+    console.log(z);
+
+2.  let x = 10;
+    let y = 24;
+
+    z = x ^ y;
+    console.log(z);
+
+OR "|"
+
+1.  const x = 8;
+    const y = 15;
+
+    z = x | y;
+    console.log(z);
+
+2.  let x = 10;
+    let y = 24;
+
+    z = x | y;
+    console.log(z);
+
+Not "~"
+
+1. const x = 15;
+
+   result = ~x;
+
+   console.log(result);
+
+2. let y = 25;
+
+   result2 = ~y;
+
+   console.log(result2);
+
+Left shift "<<"
+
+1.  const x = 8;
+
+    const y = 1;
+
+    z = a << b;
+
+    console.log(z);
+
+2.  let a = 14;
+    let b = -3;
+    c = a >> b;
+    console.log(c);
+
+Sign-propagating right shift ">>"
+
+1.  const x = 8;
+
+    const y = 1;
+
+    z = x >> y;
+
+    console.log(z);
+
+2.  let a = 14;
+    let b = -3;
+    c = a >> b;
+    console.log(c);
+
+Zero fill right shift ">>>"
+
+1.  const x = 8;
+
+    const y = 1;
+
+    z = x >>> y;
+
+    console.log(z);
+
+2.  let a = 14;
+    let b = -3;
+    c = a >>> b;
+    console.log(c);
 
 ### Question 4
 
