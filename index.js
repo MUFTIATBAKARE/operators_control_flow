@@ -31,7 +31,7 @@ if (studentChoice === 'science'){
  * - print power of 2 closest to the number entered by user
  * 
 */
-let num = 40;
+let num = prompt("Please enter a positive number: ");
 let pwr = 2;
 let previousPwr = 2;
 let index = 0;
