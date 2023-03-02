@@ -31,11 +31,22 @@ if (studentChoice === 'science'){
  * - print power of 2 closest to the number entered by user
  * 
 */
-let num = prompt ("Please enter a number:");
+let num = 40;
 let pwr = 2;
+let previousPwr = 2;
 let index = 0;
-while (num >= 0 && pwr < num) {
+while (pwr < num) {
+    previousPwr = pwr;
     pwr = 2**index;
     index++;
- console.log("The mumber " + pwr + " is the power of 2 nearest to " + num);
 }
+let diff1 = num - previousPwr;
+let diff2 = pwr - num;
+if (diff1 <= diff2 ){
+    pwr = previousPwr
+}
+else{
+    pwr = pwr
+}
+ console.log("The mumber " + pwr + " is the power of 2 nearest to " + num);
+
